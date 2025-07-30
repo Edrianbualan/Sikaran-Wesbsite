@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sikaran Martial Arts</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Click Sound Effect -->
+  <audio id="click-sound" src="sfx-click.mp3" preload="auto"></audio>
+
+  <!-- Header and Navbar -->
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="logo Sikaran.png" alt="Sikaran Logo" class="logo-img" />
+        Sikaran
+      </div>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span><span></span><span></span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#instructors">Instructors</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Master the Art of Sikaran</h1>
+      <p>A traditional Filipino martial art focused on powerful kicks and discipline.</p>
+      <a href="#contact" class="cta-button">Join the Journey</a>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section class="section dark" id="programs">
+    <h2>Our Sikaran Programs</h2>
+    <div class="programs-grid">
+      <div class="program">
+        <h3>Kids Sikaran</h3>
+        <p>Teach discipline and coordination to young learners through traditional training.</p>
+      </div>
+      <div class="program">
+        <h3>Adult Sikaran</h3>
+        <p>Develop strength, confidence, and technique through dynamic kicking arts.</p>
+      </div>
+      <div class="program">
+        <h3>Self-Defense</h3>
+        <p>Learn how to defend yourself using time-tested Filipino techniques.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instructors Section -->
+  <section class="section" id="instructors">
+    <h2>Meet Our Sikaran Instructors</h2>
+    <div class="instructor-scroll-wrapper">
+      <button class="scroll-btn left" onclick="scrollInstructors(-1)">&#10094;</button>
+      <div class="instructor-scroll-container" id="instructor-scroll">
+        <div class="instructor-grid">
+          <div class="instructor">
+            <img src="instructor1.jpg" alt="Giga Chad">
+            <h3>Giga Chad</h3>
+          </div>
+          <div class="instructor">
+            <img src="instructor2.jpg" alt="Jet li">
+            <h3>Jet li</h3>
+          </div>
+          <div class="instructor">
+            <img src="instructor3.jpg" alt="Donnie Yen">
+            <h3>Donnie Yen</h3>
+          </div>
+          <div class="instructor">
+            <img src="instructor4.jpg" alt="Bruce Lee">
+            <h3>Bruce Lee</h3>
+          </div>
+        </div>
+      </div>
+      <button class="scroll-btn right" onclick="scrollInstructors(1)">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section dark" id="contact">
+    <h2>Contact Information:</h2>
+    <div class="contact-details">
+      <p><strong>Mobile Number:</strong> 0912345678910</p>
+      <p><strong>Email:</strong> 12345efg@gmail.com</p>
+      <p><strong>Socials:</strong> <a href="https://user1234.m.facebook.com" target="_blank">@user1234.m.facebook.com</a></p>
+      <p><strong>Address:</strong> Kidapawan City, North Cotabato, Philippines</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Sikaran Martial Arts. All rights reserved.</p>
+  </footer>
+</body>
+</html>
